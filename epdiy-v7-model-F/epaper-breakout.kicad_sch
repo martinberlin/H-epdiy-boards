@@ -10564,6 +10564,18 @@
 		)
 		(uuid "7e87e0e8-37db-4151-bfe7-e03a9b226c50")
 	)
+	(rectangle
+		(start 335.28 110.49)
+		(end 384.81 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aa2d8335-7b9e-4f42-aa2f-8b2ff90695e2")
+	)
 	(text "Battery Voltage Sense"
 		(exclude_from_sim no)
 		(at 209.55 114.3 0)
@@ -32154,18 +32166,6 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 311.15 521.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer_Name" "Micro Crystal AG"
 			(at 311.15 621.92 0)
 			(hide yes)
@@ -32190,44 +32190,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 311.15 821.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "LCSC" "C5127802"
 			(at 311.15 921.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 311.15 1021.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 311.15 1121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33221,9 +33185,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "81c84a7f-a34e-4402-aac6-49939e3d724c")
 		(property "Reference" "JP3"
@@ -33641,9 +33605,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8682d78b-471e-4d1f-8beb-0ed8a66386d4")
@@ -35621,6 +35585,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C118303"
+			(at 361.95 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4acef2d2-577e-4abe-ba55-5c29a10503fd")
 		)
@@ -36517,8 +36492,8 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "fe41c168-ece4-4242-8eac-7497709daef3")
 		(property "Reference" "C43"
 			(at 272.415 120.015 0)
