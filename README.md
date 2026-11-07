@@ -1,6 +1,6 @@
 ## H-epdiy-boards list of open source variations
 
-This boards where made with collaboration from Larry Bank and support from the [NLnet foundation}(https://nlnet.nl).
+This boards where made with collaboration from Larry Bank and support from the [NLnet foundation](https://nlnet.nl).
 Each variation is targeted for different needs. Intended for everyone to make their own custom modifications. For example: You don't need one of the eink connectors, or you don't need RTC, then just remove it from the Pick and place order. For more advanced users you can of course open the board in KiCad and reorganize stuff.
 Pull Requests with variations or fixes are welcome.
 Any of this circuits is made or designed with AI. They are all human reviewed and crafted carefully.
