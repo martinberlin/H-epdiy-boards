@@ -19007,7 +19007,7 @@
 			(uuid "bf409003-6830-4245-9e49-14dfc32d3208")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/TPS651851RSLR.step"
+		(model "/Users/martin/Documents/Hardware-projects/H-epdiy-boards/common-parts/3d/TPS651851RSLR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28055,7 +28055,7 @@
 		(descr "RV-3032-C7-1")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "Y1"
-			(at 0.02 3.448 180)
+			(at 0.02 3.448 0)
 			(layer "F.SilkS")
 			(uuid "b2028de7-58d3-4852-a6ca-6fe3803774f4")
 			(effects
@@ -28195,13 +28195,7 @@
 		(path "/5c520fb7-205c-4d21-be1d-fd15d432940c")
 		(sheetname "/")
 		(sheetfile "epaper-breakout.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 1.2)
@@ -28409,7 +28403,7 @@
 			(uuid "f010baa7-4822-4c7c-99d4-c39631449e0f")
 		)
 		(embedded_fonts no)
-		(model "../common-parts/3d/C5127802_RV3032.wrl"
+		(model "${KIPRJMOD}/parts/3d/RV-3032-C7.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28428,12 +28422,12 @@
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J9"
-			(at 0 -5.645 180)
+			(at -0.006 -6.428 180)
 			(layer "F.SilkS")
 			(uuid "d1e6644b-ec09-4502-9c8f-fc8677e5e66d")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.2 1.2)
 					(thickness 0.15)
 				)
 			)
@@ -34999,12 +34993,12 @@
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J10"
-			(at 0.072 -7.286 180)
+			(at 0.008274 -8.607 180)
 			(layer "F.SilkS")
 			(uuid "4929a464-da7f-443e-80f9-80ef17dac03b")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.2 1.2)
 					(thickness 0.15)
 				)
 			)
